@@ -76,7 +76,7 @@ with st.sidebar:
         placeholder="Content marketing for startups\nHealthy breakfast ideas\nBeginner's guide to Python"
     )
     
-    submit_button = st.button("🚀 Generate Variations")
+    submit_button = st.button("Generate Variations")
 
 
 # --- Main Content Area for Results ---
