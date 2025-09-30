@@ -23,7 +23,7 @@ def get_gemini_variations(api_key: str, keyword: str) -> List[str]:
     try:
         # Configure the generative AI library with the provided key
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-pro')
         
         prompt = f"""
         Generate exactly 5 possible variations of how the following keyword could be used
