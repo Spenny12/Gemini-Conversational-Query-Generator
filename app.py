@@ -1,5 +1,5 @@
 # app.py
-
+pip install -r requirements.txt
 import os
 import streamlit as st
 import google.generativeai as genai
